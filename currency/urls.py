@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import USD,EUR,GBP
+from .views import usd,eur,gbp
 
 urlpatterns = [
-    path("USD/",USD),
-    path("EUR/",EUR),
-    path("GBP/",GBP),
+    path("USD/",usd),
+    path("EUR/",eur),
+    path("GBP/",gbp),
 ]
